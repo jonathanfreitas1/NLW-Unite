@@ -1,0 +1,32 @@
+POST http://localhost:3333/events
+Content-Type: application/json
+
+{
+    "title": "Unite Smmit",
+    "details": "Teste",
+    "maximumAttendees": 100
+}
+
+###
+
+POST http://localhost:3333/events/79319021-e461-40fe-94f6-f58a24764631/attendees
+Content-Type: application/json
+
+{
+    "name": "Jonathan Freitas",
+    "email": "freitasjonathan3@gmail.com"
+}
+
+###
+GET http://localhost:3333/events/79319021-e461-40fe-94f6-f58a24764631
+
+###
+
+GET http://localhost:3333/attendees/1/badge
+
+###
+
+GET http://localhost:3333/attendees/1/check-in
+
+###
+GET http://localhost:3333/events/79319021-e461-40fe-94f6-f58a24764631/attendees
