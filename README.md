@@ -17,7 +17,8 @@ Regras de negócio:
  - O participante só pode realizar check-in em um evento uma única vez;
 
 Para executar: 
-- Seed - npx prisma seed
-- Executar em modo de desenvolvimento - npm run dev
-- Executar migrations - npm run db:migrate
-- Executar Prisma Studio - npm run db:studio
+- Instalar dependecias - npm i;
+- Seed - npx prisma db seed;
+- Executar em modo de desenvolvimento - npm run dev;
+- Executar migrations - npm run db:migrate;
+- Executar Prisma Studio - npm run db:studio;
